@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
+import { RecoilRoot } from "recoil";
+import App from "./App";
 
 export default function Recoil() {
-
-  
   return (
-    <div className='flex-1 '>
-      <h1 className='font-bold text-2xl'>Recoil</h1>
-    </div>
-  )
+    <RecoilRoot>
+      <App />
+    </RecoilRoot>
+  );
 }
